@@ -13,6 +13,10 @@ body {
     position: relative;
     height: 100vh;
 }
+/* .competences {
+    position: relative;
+    height: 100vh;
+} */
 header {
     position: relative;
 }
@@ -72,4 +76,64 @@ h4 {
     font-weight: 400;
     text-align: left;
     color: #2F2E33;
+}
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: left;
+    color: #2F2E33;
+}
+.transition img {
+    width: 99vw;
+}
+.languages img {
+    display: block;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+}
+.transition {
+    display: flex;
+}
+.competences h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 4rem;
+    font-weight: 300;
+    text-align: center;
+    color: #3A5199;
+}
+.leftBlock {
+    background-color: #ffffff;
+    width: 49.9vw;
+    display: inline-flex;
+    height: 100vh;
+}
+.rightBlock {
+    background-color: #3A5199;
+    width: 49vw;
+    display: inline-flex;
+    height:100vh
+}
+.rightBlock .title {
+    display: block;
+    margin: auto;
+}
+.leftBlock .date {
+    display: block;
+    float: left;
+}
+.leftBlock .formationTitle {
+    display: block;
+    float: right;
+}
+.date p {
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: left;
+    color: #D5D6D2;
+    margin: 2vw;
 }
