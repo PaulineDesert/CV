@@ -105,15 +105,28 @@ p {
     text-align: center;
     color: #3A5199;
 }
-.leftBlock {
-    background-color: #ffffff;
-    width: 49.9vw;
+.formation {
+    width: 99vw;
     display: inline-flex;
     height: 100vh;
+    background: url(../img/118-2.png) no-repeat;
+    background-position: left;
+    background-size: 50% auto;
+}
+.leftBlock {
+    width: 50vw;
+    display: inline-flex;
+    margin: auto;
+    height: 70vh;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(5, auto);
 }
 .rightBlock {
     background-color: #3A5199;
-    width: 49vw;
+    width: 50vw;
     display: inline-flex;
     height:100vh
 }
@@ -129,11 +142,79 @@ p {
     display: block;
     float: right;
 }
-.date p {
+.date1 p, 
+.date2 p, 
+.date3 p, 
+.date4 p, 
+.date5 p {
     font-family: 'Lato', sans-serif;
     font-size: 2rem;
     font-weight: 300;
     text-align: left;
     color: #D5D6D2;
-    margin: 2vw;
+    margin-left: 5vw;
+    margin-right: 1vw;
+}
+.form1 p, 
+.form2 p, 
+.form3 p, 
+.form4 p, 
+.form5 p {
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: left;
+    color: #2F2E33;
+    margin-right: 5vw;
+    margin-left: 1vw;
+}
+.date1 {
+    grid-column-start:1;
+    grid-row-start:1;
+    align-self: center;
+}
+.date2 {
+    grid-column-start:1;
+    grid-row-start:2;
+    align-self: center;
+}
+.date3 {
+    grid-column-start:1;
+    grid-row-start:3;
+    align-self: center;
+}
+.date4 {
+    grid-column-start:1;
+    grid-row-start:4;
+    align-self: center;
+}
+.date5 {
+    grid-column-start:1;
+    grid-row-start:5;
+    align-self: center;
+}
+.form1 {
+    grid-column-start:2;
+    grid-row-start:1;
+    align-self: center;
+}
+.form2 {
+    grid-column-start:2;
+    grid-row-start:2;
+    align-self: center;
+}
+.form3 {
+    grid-column-start:2;
+    grid-row-start:3;
+    align-self: center;
+}
+.form4 {
+    grid-column-start:2;
+    grid-row-start:4;
+    align-self: center;
+}
+.form5 {
+    grid-column-start:2;
+    grid-row-start:5;
+    align-self: center;
 }
