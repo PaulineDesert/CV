@@ -226,17 +226,52 @@ p {
     color: #3A5199;
 }
 .leftExp {
-    margin-right: 50%;
+    margin-right: 52%;
     display: block;
     float: right;
     width: 25vw;
     text-align: justify;
     border-left: dotted;
+    border-color: #3A5199;
 }
 .rightExp {
-    margin-left: 50%;
+    margin-left: 52%;
     display: block;
     float: left;
     width: 25vw;
     text-align: left;
+    border-left: dotted;
+    border-color: #3A5199;
+}
+p.period {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+    text-align: left;
+    color: #2F2E33;
+    margin: 0;
+    margin-left: 1vw;
+}
+h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: left;
+    color: #2F2E33;
+    margin: 0;
+    margin-left: 1vw;
+}
+p.xp {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: left;
+    color: #2F2E33;
+    margin: 1vw 0vw 0vw 1vw;
+}
+.contact {
+    background-color: #D5D6D2;
+    width: 100vw;
+    display: inline-flex;
+    margin-top: 10vh;
 }
