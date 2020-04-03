@@ -5,25 +5,54 @@ body {
     float: right;
     height: 6.5vh
 }
-.home {
+#home {
     position: relative;
     height: 100vh;
 }
-.about {
-    position: relative;
-    height: 100vh;
-}
-/* .competences {
-    position: relative;
-    height: 100vh;
-} */
 header {
-    position: relative;
+    height: 8vh;
 }
-/* .couv {
-    position: absolute;
-    top: 6.5vh;
-} */
+.navbar {
+    display: inline-flex;
+    float: right;
+    list-style-type: none;
+    margin: 1vh;
+}
+.navbar a {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #2F2E33;
+    text-decoration: none;
+    margin: 1rem;
+}
+#blueButton {
+    background-color: #3A5199;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+#blueButton a {
+    color: #ffffff;
+    text-align: center;
+}
+#blueButton:hover {
+    background-color: #D5D6D2;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+#blueButton a:hover {
+    color: #3A5199;
+    text-align: center;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: #000000;
+    text-decoration: underline #3A5199;
+}
+#about {
+    position: relative;
+    height: 100vh;
+}
 .couv img {
     height: 110vh;
     width: 99vw;
@@ -87,7 +116,7 @@ p {
 .transition img {
     width: 99vw;
 }
-.languages img {
+.title img {
     display: block;
     width: 80vw;
     margin-left: auto;
@@ -95,17 +124,53 @@ p {
     margin-top: 10vh;
     margin-bottom: 20vh;
 }
+.languages {
+    width: 99vw;
+}
+.compL {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.comp {
+    display: inline-block;
+    margin: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.circle {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border:1px solid #D5D6D2;
+}
+.comp p {
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    color: #2F2E33;
+    margin: 0;
+}
+p.compTitle {
+    display: block;
+    position: absolute;
+    margin: 0;
+    letter-spacing: 1rem;
+    color: #D5D6D2;
+    font-size: 4rem;
+}
 .transition {
     display: flex;
 }
-.competences h3 {
+#competences h3 {
     font-family: 'Lato', sans-serif;
     font-size: 4rem;
     font-weight: 300;
     text-align: center;
     color: #3A5199;
 }
-.formation {
+#formation {
     width: 99vw;
     display: inline-flex;
     height: 100vh;
@@ -218,7 +283,7 @@ p {
     grid-row-start:5;
     align-self: center;
 }
-.experiences h3 {
+#experiences h3 {
     font-family: 'Lato', sans-serif;
     font-size: 4rem;
     font-weight: 300;
@@ -269,14 +334,14 @@ p.xp {
     color: #2F2E33;
     margin: 1vw 0vw 0vw 1vw;
 }
-.contact {
+#contact {
     background-color: #D5D6D2;
     width: 99vw;
     display: inline-flex;
     margin-top: 10vh;
 }
-.contact .co,
-.contact .title {
+#contact .co,
+#contact .title {
     display: block;
     margin: auto;
 }

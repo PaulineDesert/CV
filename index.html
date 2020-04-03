@@ -11,10 +11,19 @@
 
 <body>
     <header class="header">
-        <img id="navbar" src="img/navbar.png" alt="Navbar" />
+        <div class="navbar">
+            <a href="#home">Accueil</a>
+            <a href="#about">Profil</a>
+            <a href="#competences">Compétences</a>
+            <a href="#formation">Formations</a>
+            <a href="#experiences">Expériences</a>
+            <div id="blueButton" href="#Accueil">
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
     </header>
     <main class=homePage>
-        <section class="home">
+        <section id="home">
             <div class="couv">
                 <img src="img/118.png" alt="Fond" />
             </div>
@@ -24,7 +33,7 @@
                 <!-- <img class="title" src="img/download-solid.svg" title="Téléchargement" alt="Téléchargement" /> -->
             </div>
         </section>
-        <section class="about">
+        <section id="about">
             <div class="blockTitle">
                 <h3>Profil</h3>
             </div>
@@ -34,16 +43,27 @@
                 <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
             </div>
         </section>
-        <section class="competences">
+        <section id="competences">
             <div class="transition">
                 <img src="img/transition.png" alt="Transition" />
             </div>
             <div class="title">
                 <h3>Compétences</h3>
-            </div>
-            <div class="languages">
                 <img src="img/competences.png" alt="Compétences" />
             </div>
+            <!-- <div class="languages">
+                <div class="compL">
+                    <div class="comp">
+                        <p>HTML</p>
+                        <div class="circle"></div>
+                    </div>
+                    <div class="comp">
+                        <p>CSS</p>
+                        <div class="circle"></div>
+                    </div>
+                    <p class="compTitle">Langages</p>
+                </div>
+            </div> -->
             <!-- <div class="framework">
 
             </div>
@@ -51,7 +71,7 @@
 
             </div> -->
         </section>
-        <section class="formation">
+        <section id="formation">
             <div class="leftBlock">
                 <div class="grid-container">
                     <div class="date1">
@@ -92,7 +112,7 @@
                 </div>
             </div>
         </section>
-        <section class="experiences">
+        <section id="experiences">
             <div class="title">
                 <h3>Expériences</h3>
             </div>
@@ -148,7 +168,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact">
+        <section id="contact">
             <div class="title">
                 <h3>Contact</h3>
             </div>
