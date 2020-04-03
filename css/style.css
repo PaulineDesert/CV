@@ -271,7 +271,29 @@ p.xp {
 }
 .contact {
     background-color: #D5D6D2;
-    width: 100vw;
+    width: 99vw;
     display: inline-flex;
     margin-top: 10vh;
+}
+.contact .co,
+.contact .title {
+    display: block;
+    margin: auto;
+}
+.co img {
+    display: inline-flex;
+    height: 6vh;
+    margin: 10vh;
+}
+.footer {
+    background-color: #2F2E33;
+    width: 99vw;
+}
+h6 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
 }
