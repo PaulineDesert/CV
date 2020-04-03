@@ -218,3 +218,25 @@ p {
     grid-row-start:5;
     align-self: center;
 }
+.experiences h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 4rem;
+    font-weight: 300;
+    text-align: center;
+    color: #3A5199;
+}
+.leftExp {
+    margin-right: 50%;
+    display: block;
+    float: right;
+    width: 25vw;
+    text-align: justify;
+    border-left: dotted;
+}
+.rightExp {
+    margin-left: 50%;
+    display: block;
+    float: left;
+    width: 25vw;
+    text-align: left;
+}
